@@ -1,0 +1,49 @@
+body {
+	background-color: beige;
+	text-align: center;
+}
+
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row-reverse;
+
+}
+
+.box {
+	height: 150px;
+	width: 150px;
+}
+
+.box-red {
+	background-color: tomato;
+	font-family: 'Amatic SC';
+	font-size: 22px;
+
+}
+.box-blue {
+	background-color: lightblue;
+	font-family: 'Annie Use Your Telescope';
+	font-size: 22px;
+	text-align: right;
+}
+
+.box-purple {
+	background-color: mediumpurple;
+	font-family: 'Architects Daughter';
+	font-size: 22px;
+	order:1;
+}
+
+.box-orange {
+	background-color: sandybrown;
+	font-family: 'Bangers';
+	font-size: 22px;
+	text-align: left;
+}
+
+img {
+	width: 75%;
+}
